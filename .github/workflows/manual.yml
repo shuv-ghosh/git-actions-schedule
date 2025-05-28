@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Greetings
-        run: "Run on Schedule"
+        run: echo "Run on Schedule"
