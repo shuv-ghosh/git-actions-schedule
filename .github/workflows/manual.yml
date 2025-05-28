@@ -1,18 +1,12 @@
 name: Manual Workflow
 
 on:
-  workflow_dispatch:
-    inputs:
-      name:
-        description: 'Name'
-        type: string
-        default: 'test'
   schedule:
-    - cron: '15 6 * * *'
+    - cron: '25 6 * * *'
 
 jobs:
   demo:
     runs-on: ubuntu-latest
     steps:
       - name: Greetings
-        run: echo "${{ inputs.name }}"
+        run: "Run on Schedule"
