@@ -7,6 +7,8 @@ on:
         description: 'Name'
         type: string
         default: 'test'
+  schedule:
+    - cron: '15 6 * * *'
 
 jobs:
   demo:
