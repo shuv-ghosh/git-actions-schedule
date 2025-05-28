@@ -2,7 +2,7 @@ name: Manual Workflow
 
 on:
   schedule:
-    - cron: '25 6 * * *'
+    - cron: '30 6 * * *'
 
 jobs:
   demo:
